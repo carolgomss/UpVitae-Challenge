@@ -1,7 +1,6 @@
 package br.com.fiap.b2w.bo;
 
 import java.util.Date;
-import java.util.List;
 
 import br.com.fiap.b2w.dao.PerfilDAO;
 import br.com.fiap.b2w.exception.PerfilException;
@@ -82,15 +81,5 @@ public class PerfilBO {
 		if (perfil.getTelefone().equals(null)) {
 			throw new PerfilException("Numero de telefone deve conter ddd e numero");
 		}
-	}
-
-	public int cadastroPerfil(Perfil pf) {
-		
-		return 0;
-	}
-
-	public List<Perfil> listagemPerfil(int i) {
-		
-		return null;
 	}
 }
