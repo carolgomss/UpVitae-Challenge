@@ -40,8 +40,8 @@ public class MetaServlet extends HttpServlet {
 			meta.setDescricao(descricao);
 			meta.setPontuacao(Integer.parseInt(pontuacao));
 			
-			MetaBO metaBO = new MetaBO();
 			try {
+				MetaBO metaBO = new MetaBO();
 				metaBO.cadastrar(meta);
 				response.sendRedirect("metasExemplo.jsp?msg=sucesso");
 			} catch (MetaException e) {
