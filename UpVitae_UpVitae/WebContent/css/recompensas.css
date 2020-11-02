@@ -1,0 +1,248 @@
+.interna_portfolio {
+	background: url("../img/escheresque.png");
+	/* background-size: cover; */
+}
+
+h1 {
+	color: #443850;
+}
+
+p  {
+	color: #443850;
+}
+
+div.banner-ame-digital {
+	width: 960px;
+	background-image: url(../img/escheresque.png);
+	height: 400px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+img.logo-ame {
+	margin: 0 auto;
+	position: relative;
+	padding: 10px;	
+}
+
+div.info-ame {
+	float: left;
+	width: 520px;
+	height: 232px;
+	margin-top: 20px;
+	margin-left: 50px;
+	background-image: url(../img/ame22.png);
+} 
+
+div.info-ame2 {
+	float: right;
+	width: 300px;
+	height: 232px;
+	background-color: #ef2a60;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-right: 50px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.ame-txt-titulo {
+	color: #fff;
+	font-size: 24px;
+	padding-top: 30px;
+}
+
+.ame-txt {
+	padding-top: 20px;
+	color: #fff;
+	line-height: 30px;
+
+}
+
+
+.separa_tabelas {
+	width: 940px;
+	height: 25px;
+	margin-top: 40px;
+	background-image: url(../img/escheresque.png);
+}
+
+div.recompensa-depoimento-title {
+	text-align: center;
+	margin-top: 80px;
+	font-family: 'Proza Libre', Arial, Helvetica, sans-serif;
+	color: #443850;
+}
+
+div.recompensa-depoimento-title h2{
+	font-size: 24px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.introducao-interna p {
+	border: #1d1d1d 1px solid;
+	margin-top: 15px;
+	padding: 5px;
+	width: 500px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.quote_clientes {
+	padding: 60px 0;
+	max-width: 460px;
+	margin: 0 auto;
+}
+
+.quote_clientes p{
+	text-align: center;
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 18px;
+	line-height: 25px;
+	font-style: italic;
+	margin-bottom: 20px;
+}
+
+.quote_clientes cite {
+	font-size: 18px;
+	font-weight: bold;
+	float: right;
+	font-style: normal;
+	font-family: 'Prosa Libre', Arial, Helvetica, sans-serif;
+	color: #443850;
+}
+
+/*Plugin de Slide*/
+
+.rslides, .rslides_portfolio {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+.rslides li, .rslides_portfolio li{
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+
+.rslides li:first-child, .rslides_portfolio li:first-child{
+	position: relative;
+	display: block;
+	float: left;
+}
+
+.rslides img, .rslides_portfolio img {
+	display: block;
+	height: auto;
+	width: 100%;
+	border: 0;
+}
+
+.rslides_tabs {
+	text-align: center;
+	margin-top: 14px;
+}
+
+.rslides_tabs li{
+	display: inline;
+	margin: 0 5px;
+}
+
+.rslides_tabs li a{
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	background: #1d1d1d;
+	color: #1d1d1d;
+	border-radius: 20px;
+	overflow: hidden;
+	text-indent: -200px;
+}
+
+.rslides_tabs li a:hover, .rslides_tabs li.rslides_here a {
+	background: #fec63e;
+	color: #fec63e;
+}
+
+
+    /* The Modal (background) */
+	.modal {
+		display: none; /* Hidden by default */
+		position: fixed; /* Stay in place */
+		z-index: 1; /*Sit on top*/
+		left: 0;
+		top: 0;
+		width: 100%; /* Full width */
+		height: 100%; /* Full height */
+		overflow: auto; /* Enable scroll if needed */
+		background-color: rgb(0,0,0); /* Fallback color */
+		background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+	  }
+	  
+	  /* Modal Content/Box */
+	  .modal-content {
+		background-color: #fefefe;
+		margin: 10% auto; 
+		padding: 25px;
+		/* border: 1px solid #888; */
+		width: 60%; /* Could be more or less, depending on screen size */
+		/* height: 70%; */
+	  }
+	  
+	  /* The Close Button */
+	  .close {
+		color: #aaa;
+		float: right;
+		font-size: 28px;
+		font-weight: bold;
+	  }
+	  
+	  .close:hover,
+	  .close:focus {
+		color: #443850;
+		text-decoration: none;
+		cursor: pointer;
+	  }
+	
+	  h4{
+		font-weight: bold;
+		color: #443850;
+	  }
+	
+	  h3{
+		  margin-top: 30px;
+		  color: #443850;
+		  font-size: 20px;
+		  font-weight: bold;
+		  /* padding: 20px; */
+	  }
+	
+	  .modalP{
+		color: #000;
+	  }
+	
+	  .bttModal{
+	
+		  padding: 20px;
+		  width: 100%;
+		  height: 80px;
+		  background-image: url(../img/escheresque_ste.png);
+		  color: #fefefe;
+		  font-weight: bold;
+		  font-size: 20px;
+	  }
+	
+	  .bttModal:hover{
+		  color: #27ecd4;
+		  opacity: 0.9;
+		  cursor: pointer;
+	  }
