@@ -58,7 +58,12 @@ public class Perfil {
         this.CPF = CPF;
     }
 
-    public int getIdPerfil() {
+    public Perfil() {
+		// TODO Auto-generated constructor stub
+	}
+
+
+	public int getIdPerfil() {
 		return idPerfil;
 	}
 

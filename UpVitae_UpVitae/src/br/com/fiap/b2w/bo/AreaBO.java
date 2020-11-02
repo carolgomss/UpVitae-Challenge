@@ -3,7 +3,6 @@ package br.com.fiap.b2w.bo;
 import java.util.List;
 import br.com.fiap.b2w.dao.AreaDAO;
 import br.com.fiap.b2w.exception.AreaException;
-import br.com.fiap.b2w.exception.MetaException;
 import br.com.fiap.b2w.model.Area;
 import br.com.fiap.b2w.model.Perfil;
 
